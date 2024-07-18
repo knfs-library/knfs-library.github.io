@@ -23,9 +23,8 @@ document.addEventListener('DOMContentLoaded', () => {
       .then(repos => {
         repoList.innerHTML = ''; // Clear previous results
         repos.forEach(repo => {
-          if (hiddens.findIndex(element => element == repo.name) >= 0) {
-            continue;
-          }
+          console.log(hiddens.findIndex(element => element == repo.name))
+        
           // Check if repo matches search term
           if (repo.name.toLowerCase().includes(searchTerm)) {
             const repoItem = document.createElement('div');
