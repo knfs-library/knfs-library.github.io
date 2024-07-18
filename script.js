@@ -1,3 +1,6 @@
+const hiddens = [
+  'knfs-library.github.io'
+]
 document.addEventListener('DOMContentLoaded', () => {
   const repoList = document.getElementById('repo-list');
   const searchInput = document.getElementById('searchInput');
@@ -20,11 +23,14 @@ document.addEventListener('DOMContentLoaded', () => {
       .then(repos => {
         repoList.innerHTML = ''; // Clear previous results
         repos.forEach(repo => {
+          if (hiddens.findIndex(element => element == repo.name) >= 0) {
+            continue;
+          }
           // Check if repo matches search term
           if (repo.name.toLowerCase().includes(searchTerm)) {
             const repoItem = document.createElement('div');
             repoItem.classList.add('col-md-6', 'mb-4');
-
+  
             repoItem.innerHTML = `
               <div class="card" style="height: 15em !important;">
                 <div class="card-body">
