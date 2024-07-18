@@ -22,7 +22,6 @@ document.addEventListener('DOMContentLoaded', () => {
       lazyBackgroundObserver.observe(lazyBackground);
     });
   } else {
-    // Fallback for browsers without IntersectionObserver support
     lazyBackgrounds.forEach(lazyBackground => {
       lazyBackground.style.backgroundImage = `url(${lazyBackground.dataset.bg})`;
     });
@@ -30,8 +29,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Fetch initial repo data
   fetchRepoData('knfs-library');
-
-  // Add debounce to search input
   let debounceTimeout;
   searchInput.addEventListener('input', () => {
     clearTimeout(debounceTimeout);
