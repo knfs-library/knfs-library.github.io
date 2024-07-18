@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
             repoItem.classList.add('col-md-6', 'mb-4');
 
             repoItem.innerHTML = `
-              <div class="card">
+              <div class="card" style="height: 15em !important;">
                 <div class="card-body">
                   <h5 class="card-title"><a href="${repo.html_url}" target="_blank">${repo.name}</a></h5>
                   <p class="card-text">${repo.description || 'No description'}</p>
