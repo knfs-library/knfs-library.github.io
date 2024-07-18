@@ -10,6 +10,14 @@ header {
   background-color: #f9f9f9;
 }
 
+footer {
+  background-color: #f9f9f9 !important;
+}
+
+footer p {
+  color: #013c4d !important;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -178,4 +186,19 @@ a {
   100% {
     transform: rotate(360deg);
   }
+}
+
+.footer-social-icons a {
+  display: inline-block;
+  width: 1.6em;
+  height: 1.6em;
+  line-height: 1.6em;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #013c4d;
+  color: white;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  font-size: 20px;
+  color: #f9f9f9 !important;
 }
