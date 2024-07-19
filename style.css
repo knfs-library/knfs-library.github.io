@@ -88,6 +88,7 @@ h1 {
 }
 
 #repo-list .card:hover {
+  border: 0px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.12);
 }
 
@@ -166,23 +167,23 @@ h1 {
 }
 
 input {
-  border: 1px solid #fbfbfb !important;
+  border: 1px solid #f9f9f9!important;
   height: 3rem !important;
   border-radius: 2.5em !important;
 }
 
 input:focus {
-  border: 1px solid #fbfbfb !important;
+  border: 0px solid #f9f9f9 !important;
   box-shadow: 0 0 0 0.2rem #c0c9d1(0, 123, 255, 0.25) !important;
 }
 
 input:active {
-  border: 1px solid #fbfbfb !important;
+  border: 0px solid #f9f9f9!important;
   box-shadow: 0 0 0 0.2rem #c0c9d1(0, 123, 255, 0.25) !important;
 }
 
 button {
-  border: 1px solid #fbfbfb !important;
+  border: 1px solid #f9f9f9!important;
   background-color: #ffffff !important;
   color: #013c4d !important;
 }
