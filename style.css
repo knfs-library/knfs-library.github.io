@@ -10,6 +10,10 @@ header {
   background-color: #f9f9f9;
 }
 
+main {
+  min-height: 28em;
+}
+
 footer {
   background-color: #f9f9f9 !important;
 }
@@ -43,6 +47,7 @@ h1 {
   color: #f9f9f9;
 }
 
+
 #slider {
   background-color: #f9f9f9;
   background-size: cover;
@@ -55,6 +60,7 @@ h1 {
 }
 
 #slider::before {
+  background-color: #f9f9f9;
   content: '';
   position: absolute;
   top: 0;
@@ -100,6 +106,7 @@ h1 {
 }
 
 .card-text {
+  color: #013c4d;
   margin-bottom: 0.5rem;
 }
 
@@ -110,6 +117,10 @@ h1 {
 
 .card-text a:hover {
   text-decoration: underline;
+}
+
+.card-description {
+  height: 6em !important;
 }
 
 .lead {

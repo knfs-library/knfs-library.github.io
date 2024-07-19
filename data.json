@@ -1,0 +1,122 @@
+[
+	{
+		"name": "bamimi-autoload",
+		"description": "A powerful package that helps you automate file loading without having to re-import them in your code.",
+		"languages": ["Javascript"],
+		"latest_version": "1.0.7",
+		"versions": 1,
+		"home_url": "bamimi-autoload",
+		"icon": "",
+		"links": [
+			{
+				"name": "Github",
+				"url": "https://github.com/knfs-library/bamimi-autoload"
+			},
+			{
+				"name": "Npm",
+				"url": "https://www.npmjs.com/package/@knfs-tech/bamimi-autoload"
+			}
+		]
+	},
+	{
+		"name": "bamimi-socket.io",
+		"description": "A powerful package designed to simplify and supercharge your socket.io usage. With a focus on ease of implementation and enhanced functionality, our package is your go-to solution for seamless socket.io integration.",
+		"languages": [
+			"Javascript"
+		],
+		"latest_version": "1.0.7",
+		"versions": 1,
+		"home_url": "bamimi-socket.io",
+		"icon": "",
+		"links": [
+			{
+				"name": "Github",
+				"url": "https://github.com/knfs-library/bamimi-socket.io"
+			},
+			{
+				"name": "Npm",
+				"url": "https://www.npmjs.com/package/@knfs-tech/bamimi-socket.io"
+			}
+		]
+	},
+	{
+		"name": "bamimi-auth",
+		"description": "A revolutionary authentication solution designed to simplify and enhance your authentication processes effortlessly.",
+		"languages": [
+			"Javascript"
+		],
+		"latest_version": "1.1.1",
+		"versions": 2,
+		"home_url": "bamimi-auth",
+		"icon": "",
+		"links": [
+			{
+				"name": "Github",
+				"url": "https://github.com/knfs-library/bamimi-auth"
+			},
+			{
+				"name": "Npm",
+				"url": "https://www.npmjs.com/package/@knfs-tech/bamimi-auth"
+			}
+		]
+	},
+	{
+		"name": "csrf",
+		"description": "Your ultimate defense against CSRF attacks, engineered to fortify your web applications effortlessly.",
+		"languages": [
+			"Javascript"
+		],
+		"latest_version": "1.0.3",
+		"versions": 1,
+		"home_url": "csrf",
+		"icon": "",
+		"links": [
+			{
+				"name": "Github",
+				"url": "https://github.com/knfs-library/csrf"
+			},
+			{
+				"name": "Npm",
+				"url": "https://www.npmjs.com/package/@knfs-tech/csrf"
+			}
+		]
+	},
+	{
+		"name": "dsa",
+		"description": "A powerful Digital Signature Authentication solution designed to enhance security measures across your applications effortlessly.",
+		"languages": [
+			"Javascript"
+		],
+		"latest_version": "1.0.0",
+		"versions": 1,
+		"home_url": "dsa",
+		"icon": "",
+		"links": [
+			{
+				"name": "Github",
+				"url": "https://github.com/knfs-library/dsa"
+			},
+			{
+				"name": "Npm",
+				"url": "https://www.npmjs.com/package/@knfs-tech/dsa"
+			}
+		]
+	},
+	{
+		"name": "ddd-express-ts-template",
+		"description": "A powerful framework built on Express.js with Domain-Driven Design principles. Ideal for developers aiming to streamline application architecture and enhance scalability.",
+		"languages": [
+			"Typescript"
+		],
+		"latest_version": "1.0.0",
+		"versions": 1,
+		"home_url": "ddd-express-ts-template",
+		"icon": "",
+		"links": [
+			{
+				"name": "Github",
+				"url": "https://github.com/knfs-library/ddd-express-ts-template"
+			}
+		]
+	}
+]

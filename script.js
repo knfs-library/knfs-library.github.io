@@ -41,37 +41,39 @@ document.addEventListener('DOMContentLoaded', () => {
   // Fetch and render repo data
   function fetchRepoData(username, searchTerm = '') {
     spinner.style.display = 'block'; // Show spinner
-    fetch(`https://api.github.com/users/${username}/repos`)
-      .then(response => {
-        if (!response.ok) {
-          throw new Error(`HTTP error! status: ${response.status}`);
-        }
-        return response.json();
-      })
+    fetch('data.json')
+      .then(response => response.json())
       .then(repos => {
         repoList.innerHTML = '';
         repos
           .filter(repo => hiddenArr.indexOf(repo.name) === -1)
           .filter(repo => repo.name.toLowerCase().includes(searchTerm))
           .forEach(repo => {
+
             const repoItem = document.createElement('div');
             repoItem.classList.add('col-md-6', 'mb-4');
-
+            const links = repo.links.map(link => {
+              return ` <a href="${link.url}" target="_blank">${link.name}</a>`
+            })
             repoItem.innerHTML = `
-              <div class="card" style="height: 15em !important;">
+              <div class="card" style="height: 18em !important;">
                 <div class="card-body">
-                  <h5 class="card-title">
-                    <a href="${repo.html_url}" target="_blank">${repo.name}</a>
-                  </h5>
-                  <p class="card-text">${repo.description || 'No description'}</p>
-                  <p class="card-text">Language: ${repo.language || 'Unknown'}</p>
-                  <p class="card-text">Stars: ${repo.stargazers_count}</p>
+                  <h3 class="card-title">
+                    <a href="${repo.home_url}" target="_blank">${repo.name}</a>
+                  </h3>
+                  <h6 class="card-subtitle mb-2 text-muted">
+                    ${repo.latest_version}
+                  </h6>
+                  <div class="card-description text-muted">
+                    <p>${repo.description}</p>
+                  </div>
+                  <hr>
+                  <p class="card-text">Language: ${repo.languages.toString()}</p>
                   <p class="card-text">
-                    <a href="${repo.html_url}" target="_blank">GitHub Repository</a>
+                    ${links}
                   </p>
-                  ${repo.homepage ? `<p class="card-text"><a href="${repo.homepage}" target="_blank">Demo Link</a></p>` : ''}
                 </div>
-              </div>
+              </div>  
             `;
 
             repoList.appendChild(repoItem);
@@ -84,4 +86,5 @@ document.addEventListener('DOMContentLoaded', () => {
         spinner.style.display = 'none';
       });
   }
+
 });
