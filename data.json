@@ -20,7 +20,7 @@
 	},
 	{
 		"name": "bamimi-socket.io",
-		"description": "A powerful package designed to simplify and supercharge your socket.io usage. With a focus on ease of implementation and enhanced functionality, our package is your go-to solution for seamless socket.io integration.",
+		"description": "A powerful package designed to simplify and supercharge your socket.io usage, with a focus on ease of implementation and enhanced functionality",
 		"languages": [
 			"Javascript"
 		],
@@ -104,7 +104,7 @@
 	},
 	{
 		"name": "ddd-express-ts-template",
-		"description": "A powerful framework built on Express.js with Domain-Driven Design principles. Ideal for developers aiming to streamline application architecture and enhance scalability.",
+		"description": "A powerful framework built on Express.js with Domain-Driven Design principles.",
 		"languages": [
 			"Typescript"
 		],

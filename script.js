@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', () => {
               return ` <a href="${link.url}" target="_blank">${link.name}</a>`
             })
             repoItem.innerHTML = `
-              <div class="card" style="height: 18em !important;">
+              <div class="card">
                 <div class="card-body">
                   <h3 class="card-title">
                     <a href="${repo.home_url}" target="_blank">${repo.name}</a>
@@ -67,7 +67,7 @@ document.addEventListener('DOMContentLoaded', () => {
                   <div class="card-description text-muted">
                     <p>${repo.description}</p>
                   </div>
-                  <hr>
+                  <hr class="mt-4">
                   <p class="card-text">Language: ${repo.languages.toString()}</p>
                   <p class="card-text">
                     ${links}
@@ -86,5 +86,4 @@ document.addEventListener('DOMContentLoaded', () => {
         spinner.style.display = 'none';
       });
   }
-
 });
