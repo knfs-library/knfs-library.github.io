@@ -33,7 +33,7 @@ footer p {
 }
 
 .logo {
-  max-width: 60px;
+  max-width: 50px;
   height: auto;
 }
 
@@ -57,7 +57,7 @@ h1 {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  height: 400px;
+  height: 28em;
   padding-top: 8em;
   transition: background-image 0.3s ease-in-out;
   position: relative;
