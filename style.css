@@ -23,9 +23,13 @@ footer p {
 }
 
 .container {
-  max-width: 1200px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 0;
+}
+
+.container-fluid {
+  margin: 0 auto;
+  padding: 0 0;
 }
 
 .logo {
@@ -169,7 +173,7 @@ h1 {
 input {
   border: 1px solid #f9f9f9!important;
   height: 3rem !important;
-  border-radius: 2.5em !important;
+  border-radius: 10px !important;
 }
 
 input:focus {
