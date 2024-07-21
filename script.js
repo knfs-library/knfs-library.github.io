@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const repoItem = document.createElement('div');
             repoItem.classList.add('col-md-6', 'mb-4');
             const links = repo.links.map(link => {
-              return ` <a href="${link.url}" target="_blank" class="text-decoration-none hover-underline>${link.name}</a>`
+              return ` <a href="${link.url}" target="_blank" class="text-decoration-none hover-underline">${link.name}</a>`
             })
             repoItem.innerHTML = `
               <div class="card">
