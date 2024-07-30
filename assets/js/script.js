@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // Fetch and render repo data
   function fetchRepoData(username, searchTerm = '') {
     spinner.style.display = 'block'; // Show spinner
-    fetch('data.json')
+    fetch('assets/data/data.json')
       .then(response => response.json())
       .then(repos => {
         repoList.innerHTML = '';

@@ -6,6 +6,22 @@ body {
   background-color: #f9f9f9;
 }
 
+.mkt {
+  margin-top: 50px !important;
+}
+
+.mkt-2 {
+  margin-top: 100px !important;
+}
+
+.mkt-3 {
+  margin-top: 150px !important;
+}
+
+.mkt-6 {
+  margin-top: 300px !important;
+}
+
 header {
   background-color: #f9f9f9;
 }
@@ -144,6 +160,7 @@ h1 {
 
 .lead {
   color: #f9f9f9;
+  margin-left: 7em !important;
 }
 
 #searchBox {
@@ -196,6 +213,21 @@ a {
   color: #013c4d !important;
 }
 
+footer {
+  background-color: #f9f9f9 !important;
+}
+
+footer p {
+  color: #013c4d !important;
+}
+
+footer p,
+h5,
+li,
+a {
+  color: #013c4d !important;
+}
+
 .spinner {
   display: none;
   width: 5rem;
@@ -216,19 +248,4 @@ a {
   100% {
     transform: rotate(360deg);
   }
-}
-
-.footer-social-icons a {
-  display: inline-block;
-  width: 1.6em;
-  height: 1.6em;
-  line-height: 1.6em;
-  text-align: center;
-  border-radius: 5px;
-  background-color: #013c4d;
-  color: white;
-  margin-right: 1em;
-  margin-bottom: 1em;
-  font-size: 20px;
-  color: #f9f9f9 !important;
 }
