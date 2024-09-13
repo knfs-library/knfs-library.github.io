@@ -61,6 +61,48 @@
 		]
 	},
 	{
+		"name": "bamimi-schedule",
+		"description": "A powerful package that helps you manage basically queue and job",
+		"languages": [
+			"Javascript"
+		],
+		"latest_version": "1.0.1",
+		"versions": 1,
+		"home_url": "bamimi-schedule",
+		"icon": "",
+		"links": [
+			{
+				"name": "Github",
+				"url": "https://github.com/knfs-library/bamimi-schedule"
+			},
+			{
+				"name": "Npm",
+				"url": "https://www.npmjs.com/package/@knfs-tech/bamimi-schedule"
+			}
+		]
+	},
+	{
+		"name": "bamimi-log",
+		"description": "A powerful package that helps you log with level fatal,error, warn, info, debug, trace, all",
+		"languages": [
+			"Javascript"
+		],
+		"latest_version": "1.0.1",
+		"versions": 1,
+		"home_url": "bamimi-log",
+		"icon": "",
+		"links": [
+			{
+				"name": "Github",
+				"url": "https://github.com/knfs-library/bamimi-log"
+			},
+			{
+				"name": "Npm",
+				"url": "https://www.npmjs.com/package/@knfs-tech/bamimi-log"
+			}
+		]
+	},
+	{
 		"name": "bamimi-auth",
 		"description": "A revolutionary authentication solution designed to simplify and enhance your authentication processes effortlessly.",
 		"languages": [
