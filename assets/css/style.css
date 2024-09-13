@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: Inter, Arial, sans-serif;
   line-height: 1.6;
   margin: 0;
   padding: 0;
@@ -71,12 +71,12 @@ h1 {
 #slider {
   background-color: #f9f9f9;
   background-size: cover;
-  background-position: center center;
   background-repeat: no-repeat;
-  height: 28em;
-  padding-top: 8em;
-  transition: background-image 0.3s ease-in-out;
+  background-position: center;
+  height: 16em;
+  transition: background-color 0.3s ease-in-out;
   position: relative;
+  align-items: center;
 }
 
 #slider::before {
@@ -87,15 +87,21 @@ h1 {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.12);
+  background: rgba(0, 0, 0, 0.05);
 }
 
 #slider .content {
   position: relative;
   z-index: 1;
   color: #ffffff;
-  text-align: center;
+  text-align: left;
   padding: 20px;
+}
+
+#slider .content h1 {
+  font-size: 50px !important;
+  font-family: 'Monaco', monospace;
+  font-weight: bold;
 }
 
 #repo-list .card {
