@@ -23,7 +23,7 @@ body {
 }
 
 header {
-  background-color: #f9f9f9;
+  background-color: #ffffff;
 }
 
 main {
@@ -102,6 +102,18 @@ h1 {
   font-size: 50px !important;
   font-family: 'Monaco', monospace;
   font-weight: bold;
+}
+
+.sub-nav {
+  padding-left: 3em;
+  background-color: #ffffff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.12);
+  height: 50px;
+  border: none;
+}
+
+.sub-nav span {
+  color: #013C4D;
 }
 
 #repo-list .card {
