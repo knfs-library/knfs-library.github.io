@@ -122,8 +122,8 @@ h1 {
   border-radius: 5px;
   transition: box-shadow 0.3s ease;
   overflow: hidden;
-  height: 18em !important;
   max-height: fit-content;
+  height: 18em !important;
 }
 
 #repo-list .card:hover {

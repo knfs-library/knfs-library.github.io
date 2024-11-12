@@ -62,7 +62,7 @@
 	},
 	{
 		"name": "bamimi-schedule",
-		"description": "A powerful package that helps you manage basically queue and job",
+		"description": "A powerful package that gives you basic job and queue management with Redis as well as built-in integration in the Bamimi Framework",
 		"languages": [
 			"Javascript"
 		],
